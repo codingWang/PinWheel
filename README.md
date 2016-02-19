@@ -1,6 +1,6 @@
 # PinWheel
 
-### a Dialog like below
+### a dialog like below
 
 ![](https://github.com/codingWang/PinWheel/blob/master/gif/pinwheel.gif)
 
