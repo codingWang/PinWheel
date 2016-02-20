@@ -5,6 +5,23 @@
 ![](https://github.com/codingWang/PinWheel/blob/master/gif/pinwheel.gif)
 
 
+### Usage
+```
+repositories {
+ maven {
+url 'https://dl.bintray.com/duwei/maven/'
+}
+}
+
+```
+
+```
+
+compile 'com.duwei.pinwheel:pinwheel:0.1'
+
+```
+
+
 ### License
 
 ```
