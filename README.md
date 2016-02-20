@@ -6,19 +6,27 @@
 
 
 ### Usage
+1.add this to your module's build.gradle
 ```
 repositories {
  maven {
-url 'https://dl.bintray.com/duwei/maven/'
-}
+ url 'https://dl.bintray.com/duwei/maven/'
+ }
 }
 
 ```
 
 ```
+dependencies {
 
-compile 'com.duwei.pinwheel:pinwheel:0.1'
-
+ compile 'com.duwei.pinwheel:pinwheel:0.1'
+ 
+}
+```
+2.java code
+```
+PinWheelDialog d = new PinWheelDialog(MainActivity.this);
+ d.show();
 ```
 
 
